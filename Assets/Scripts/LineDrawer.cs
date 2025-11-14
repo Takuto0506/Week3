@@ -17,7 +17,7 @@ public class LineDrawer : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.instance == null || !GameManager.instance.hasStarted)
+        if (!GameManager.instance.hasStarted)
             return;
 
         if (Input.GetMouseButtonDown(0))

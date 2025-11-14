@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resultText: {fileID: 1882906415}
   retryButton: {fileID: 546062737}
-  hasStarted: 0
+  hasStarted: 1
 --- !u!4 &1889360432
 Transform:
   m_ObjectHideFlags: 0

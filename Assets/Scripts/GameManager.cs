@@ -2,15 +2,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+[DefaultExecutionOrder(-100)]
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     public Text resultText;
     public Button retryButton;
-
     public bool hasStarted = false; // スタートしたかどうかのフラグ
 
-    void Awake()
+    private void Awake()
     {
         instance = this;
     }
